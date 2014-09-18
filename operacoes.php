@@ -7,15 +7,6 @@ function soma($x, $y) {
     
 }
 
-$resultado1=6;
-$resultado2=2;
-
-echo "O resultado eh: " .soma($resultado1, $resultado2);
-
-echo"<br>
-    <br>
-    <br>"
-
 ?>
  
 
@@ -25,15 +16,8 @@ function subtracao($x, $y) {
 		$subtracao = $x-$y;
                 
         return $subtracao;
+        }
         
-}     
-
-
-echo "O resultado eh: " .subtracao($resultado1, $resultado2);
-                
-echo"<br>
-    <br>
-    <br>"
 ?>
 
 
@@ -46,13 +30,7 @@ function multiplicacao($x,$y) {
         return $multiplicacao;
         
 }            
-
-
-echo "O resultado eh: " .multiplicacao($resultado1, $resultado2);
-                
-echo"<br>
-    <br>
-    <br>"
+              
 ?>
 
 
@@ -65,13 +43,6 @@ function divisao($x,$y) {
         return $divisao;
         
 }            
-
-
-echo "O resultado eh: " .divisao($resultado1, $resultado2);
-
-echo"<br>
-    <br>
-    <br>"
 
 ?>
 
